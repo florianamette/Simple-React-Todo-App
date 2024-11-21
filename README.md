@@ -28,4 +28,40 @@ Follow these steps to set up the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/florianamette/Simple-React-Todo-App.git
+   cd simple-react-todo-app
+   ```
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+
+   ```bash
+    npm start
+    ```
+   
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Node.js**: Backend runtime for running the development environment.
+
+---
+
+## ✨ How to Use
+
+1. **Add a Task**:
+- Type a task into the input field.
+- Press **Enter** or click the **Add** button.
+
+2. **Mark as Complete**:
+- Check the box next to a task to mark it as completed. The task will appear with a strikethrough and gray text.
+
+3. **Delete a Task**:
+- Click the **Delete** button to remove the task from the list.
